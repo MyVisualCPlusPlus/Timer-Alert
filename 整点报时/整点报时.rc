@@ -1,0 +1,166 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_MY MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      IDM_EXIT
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A) ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MY ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  22, 17, 230, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 9, "宋体"
+BEGIN
+    ICON            107,IDC_MYICON,14,9,16,16
+    LTEXT           "整点报时 1.0 版",IDC_STATIC,49,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2017",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "确定",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SMALL               ICON                    "small.ico"
+IDI_MAIN                ICON                    "整点报时.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE1               WAVE                    "C:\\报时语音\\0.wav"
+IDR_WAVE2               WAVE                    "C:\\报时语音\\1.wav"
+IDR_WAVE3               WAVE                    "C:\\报时语音\\2.wav"
+IDR_WAVE4               WAVE                    "C:\\报时语音\\3.wav"
+IDR_WAVE5               WAVE                    "C:\\报时语音\\4.wav"
+IDR_WAVE6               WAVE                    "C:\\报时语音\\5.wav"
+IDR_WAVE7               WAVE                    "C:\\报时语音\\6.wav"
+IDR_WAVE8               WAVE                    "C:\\报时语音\\7.wav"
+IDR_WAVE9               WAVE                    "C:\\报时语音\\8.wav"
+IDR_WAVE10              WAVE                    "C:\\报时语音\\9.wav"
+IDR_WAVE11              WAVE                    "C:\\报时语音\\10.wav"
+IDR_WAVE12              WAVE                    "C:\\报时语音\\11.wav"
+IDR_WAVE13              WAVE                    "C:\\报时语音\\12.wav"
+IDR_WAVE14              WAVE                    "C:\\报时语音\\13.wav"
+IDR_WAVE15              WAVE                    "C:\\报时语音\\14.wav"
+IDR_WAVE16              WAVE                    "C:\\报时语音\\15.wav"
+IDR_WAVE17              WAVE                    "C:\\报时语音\\16.wav"
+IDR_WAVE18              WAVE                    "C:\\报时语音\\17.wav"
+IDR_WAVE19              WAVE                    "C:\\报时语音\\18.wav"
+IDR_WAVE20              WAVE                    "C:\\报时语音\\19.wav"
+IDR_WAVE21              WAVE                    "C:\\报时语音\\20.wav"
+IDR_WAVE22              WAVE                    "C:\\报时语音\\21.wav"
+IDR_WAVE23              WAVE                    "C:\\报时语音\\22.wav"
+IDR_WAVE24              WAVE                    "C:\\报时语音\\23.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "整点报时"
+    IDC_MY                  "MY"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
